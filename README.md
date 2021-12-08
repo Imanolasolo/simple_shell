@@ -110,15 +110,15 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 | Files | Description |
 | :---  | :--- |
 | [main.c] | Starts the shell `CLI`.  |
-| [shell.h]| Header File containing the diferrente `libraries`, `macros`, `structures`, `variables` and `principal functions` used in the project.|
+| [shell.h]| `Header File` containing the diferrente `libraries`, `macros`, `structures`, `variables` and `principal functions` used in the project.|
 | [command_sequence.c]| File to creates and handle the command sequence or `AST`.|
 | [dynamic_structures.c]| File to created to handle functions to use in structures.|
 | [environment.c]| File to check and use the into a environmental variables list and compare with the sequence or `AST`.|
 | [exit.c] | File created to free sequence and return exit code.|
 | [execute_commands.c]| File used to `execute` different commands from the sequence.|
-| [history.c]| File created to create and handle the `history node`.|
-| [history_file.c]| File used to manage the history files.|
-| [history_queue.c]| File created to build and create the history of use commands and sequences.|
+| [history.c]| File created to `create` and `handle` the `history node`.|
+| [history_file.c]| File used to `manage` the history files.|
+| [history_queue.c]| File created to build and `create the history` of use commands and `sequences`.|
 | [int_to_string.c]| File used to change `type` of variables from `int to string` (use for arithmetic tasks).|
 
 
