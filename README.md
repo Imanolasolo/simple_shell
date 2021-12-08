@@ -14,7 +14,7 @@ Thank you for visiting this repository which contain our Simple Shell project wr
 ## Table of Contents
 * [About](#about)
 * [Requirements](#requirements)
-* [Projects](#projects)
+* [Files](#files)
 * [Credits](#credits)
 
 
@@ -104,7 +104,7 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 * `wait4` (man 2 wait4)
 * `write` (man 2 write)
 
-## Projects 
+## Files 
 
 
 ## Credits
