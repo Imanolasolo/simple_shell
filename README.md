@@ -107,6 +107,16 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 ## Files 
 
 
+| Files | Description |
+| :---  | :--- |
+| [main.c - | Starts the shell `CLI`  |
+
+
+
+
+
+
+
 ## Credits
 
 ## Author(s):blue_book:
