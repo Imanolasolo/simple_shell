@@ -41,10 +41,10 @@
  */
 typedef struct command_s
 {
-    int                 prev_valid;
-    char                separator;
-    char              **command;
-    struct command_s   *next;
+int                     prev_valid;
+char                    separator;
+char                  **command;
+struct command_s       *next;
 } command_t;
 
 /**
@@ -54,7 +54,7 @@ typedef struct command_s
  */
 typedef struct sequence_s
 {
-    command_t          *head, *tail;
+command_t              *head, *tail;
 } sequence_t;
 /**
  * struct history_s -   Structure of history sequence.
@@ -66,9 +66,9 @@ typedef struct sequence_s
 
 typedef struct history_s
 {
-    char               *command;
-    int                 priority_number;
-    struct history_s   *next;
+char                   *command;
+int                     priority_number;
+struct history_s       *next;
 } history_t;
 /**
  * struct his_q_s -     Structure of sequence
@@ -78,14 +78,14 @@ typedef struct history_s
 
 typedef struct his_q_s
 {
-    history_t          *head, *tail;
+history_t              *head, *tail;
 } his_q_t;
 
 /*MAIN*/
 int                     start_shell(char **environ, char *exec_name);
 sequence_t                *parse_string(char *input_str);
 int                     execute_commands(his_q_t *his_q, sequence_t *command_q,
-                        char *envp[], char *exec_name);
+	char *envp[], char *exec_name);
 char                   *get_file_path(char *filename, char *envp[]);
 
 /*MEMORY FREE*/
@@ -100,7 +100,7 @@ int                     is_delim(char ch, char *delims);
 sequence_t                *make_sequence();
 
 /*QUEUE USAGE*/
-int                     insequence(sequence_t *seq, char separator, char **command);
+int                insequence(sequence_t *seq, char separator, char **command);
 command_t              *disequence(sequence_t *seq);
 void                    print_queue(sequence_t *seq);
 
@@ -121,12 +121,12 @@ void                    write_queue_to_file(his_q_t *seq, char **env);
 
 /*ENVIRONMENT*/
 extern char **environ;
-                        /*Functions used inside env.c*/
+						/*Functions used inside env.c*/
 int is_name_env(char *token, char *env_name);
 void advance_env(char **env_token);
 
 /*CUSTOM FUNCS 4 CUSTOM COMMANDS */
-void            exit_shell(his_q_t *his_q, sequence_t *seq, int status, char **env);
+void       exit_shell(his_q_t *his_q, sequence_t *seq, int status, char **env);
 int                     print_env(char *envp[]);
 
 /*SIGNALS HANDLING*/
@@ -161,7 +161,7 @@ char         **get_command_tokens(char **raw_tokens, int beg_ind, int end_ind);
 /*EXECUTE COMMANDS*/
 int                     can_execute(command_t *command);
 int                     is_custom_command(char *token);
-int         execute_custom_command(command_t *, char **, his_q_t *, sequence_t *);
+int      execute_custom_command(command_t *, char **, his_q_t *, sequence_t *);
 int           execute_normal_command(command_t *command, char *envp[], char *);
 
 #endif /*_SHELL_H_*/
