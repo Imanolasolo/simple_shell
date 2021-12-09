@@ -104,7 +104,19 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 * `wait3` (man 2 wait3)
 * `wait4` (man 2 wait4)
 * `write` (man 2 write)
-
+	
+## Installation
+	
+Clone this repository: git clone "https://github.com/Imanolasolo/simple_shell.git"
+	
+Change directories into the repository: cd simple_shell
+	
+Compile: gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+	
+Run the shell in interactive mode: ./hsh
+	
+Or run the shell in non-interactive mode: example echo "ls -lh" | ./hsh
+	
 ## Files 
 
 
