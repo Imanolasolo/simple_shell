@@ -146,7 +146,7 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 ## Author(s):blue_book:
 
 Work is owned and maintained by
-* Imanol Asolo 3848 <[Imanolasolo](https://github.com/Imanolasolo)>
+* Imanol Asolo 3848 <[(https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/25px-Octicons-mark-github.svg.png)](https://github.com/Imanolasolo)>
 * Andrés Medina 3371 <[TheRealMedi](https://github.com/TheRealMedi)>
 * Alex Arévalo 3915 <[Alexoat76](https://github.com/Alexoat76)>
 
