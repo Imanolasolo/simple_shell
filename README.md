@@ -112,7 +112,7 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 | [main.c](./main.c) | Starts the shell `CLI`.  |
 | [shell.h](./shell.h)| `Header File` containing the differente `libraries`, `macros`, `structures`, `variables` and `principal functions` used in the project.|
 | [command_sequence.c](./command_sequence.c)| File to creates and `handle the command` sequence or `AST`.|
-| [dynamic_structures.c](.dynamic_structures.c)| File to created to `handle functions` to use in structures.|
+| [dynamic_structures.c](./dynamic_structures.c)| File to created to `handle functions` to use in structures.|
 | [environment.c](./environment.c)| File to check and use the environmental variables list and compare with the sequence or `AST`.|
 | [exit.c](./exit.c)| File created to `free sequence` and return exit code.|
 | [execute_commands.c](./execute_commands.c)| File used to `execute` different commands from the sequence.|
