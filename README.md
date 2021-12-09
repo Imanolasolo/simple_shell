@@ -1,5 +1,3 @@
-![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
-
 # Simple Shell
 <div style="text-align: justify">
 
@@ -13,15 +11,22 @@ Thank you for visiting this repository which contain our Simple Shell project wr
 
 ## Table of Contents
 * [About](#about)
-* [Requirements](#requirements)
-* [Files](#files)
-* [Credits](#credits)
+* [Man Page](#manpage)
 * [Flowchart](#flowchart)
+* [Requirements](#requirements)
+* [Depedences](#dependences)
+* [Credits](#credits)
+
 
 
 ## About
 This directory contains a collection of files, functions, structs and scripts used to build and manage this repository. If there are any issues regarding the intention of a particular script (or even part of a certain script), please reach out to us.
 
+## Man page
+*In progress
+
+## Flowchart
+![simple_shell1 drawio](https://user-images.githubusercontent.com/86312558/145317248-11c642c3-335b-47a6-aa7b-1b53ad1de844.png)
 	
 ## Requirements 
 
@@ -71,42 +76,8 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 
 ## **More Info**
 
-## List of allowed functions and system calls
-
-* `access` (man 2 access)
-* `chdir` (man 2 chdir)
-* `close` (man 2 close)
-* `closedir` (man 3 closedir)
-* `execve` (man 2 execve)
-* `exit` (man 3 exit)
-* `_exit` (man 2 _exit)
-* `fflush` (man 3 fflush)
-* `fork` (man 2 fork)
-* `free` (man 3 free)
-* `getcwd` (man 3 getcwd)
-* `getline` (man 3 getline)
-* `getpid` (man 2 getpid)
-* `isatty` (man 3 isatty)
-* `kill` (man 2 kill)
-* `malloc` (man 3 malloc)
-* `open` (man 2 open)
-* `opendir` (man 3 opendir)
-* `perror` (man 3 perror)
-* `read` (man 2 read)
-* `readdir` (man 3 readdir)
-* `signal` (man 2 signal)
-* `stat` (__xstat) (man 2 stat)
-* `lstat` (__lxstat) (man 2 lstat)
-* `fstat` (__fxstat) (man 2 fstat)
-* `strtok` (man 3 strtok)
-* `wait` (man 2 wait)
-* `waitpid` (man 2 waitpid)
-* `wait3` (man 2 wait3)
-* `wait4` (man 2 wait4)
-* `write` (man 2 write)
-	
 ## Installation
-	
+
 Clone this repository: git clone `"https://github.com/Imanolasolo/simple_shell.git"`
 	
 Change directories into the repository: cd `simple_shell`
@@ -117,7 +88,7 @@ Run the shell in interactive mode: `./hsh`
 	
 Or run the shell in non-interactive mode: example `echo "ls -lh" | ./hsh`
 	
-## Files 
+## Dependences 
 
 
 | Files | Description |
@@ -143,9 +114,9 @@ Or run the shell in non-interactive mode: example `echo "ls -lh" | ./hsh`
 | [string_parser.c](./string_parser.c)| File used to create the functions to cut the `AST` or sequence into `pieces`.|
 | [tokenize_string.c](./tokenize_string.c)| File use to read the tokens from the `AST` or sequence.|
 
+## Usage
 
-## Flowchart
-![simple_shell1 drawio](https://user-images.githubusercontent.com/86312558/145317248-11c642c3-335b-47a6-aa7b-1b53ad1de844.png)
+To use the `.hsh` shell, *assuming the above `.c` dependencies have been installed,* compile all `.c` files in the repository and include the header `shell.h`in the entry point function.
 
 ## Credits
 
@@ -160,7 +131,10 @@ Work is owned and maintained by
 ## Acknowledgments :mega: 
 
 ### **`Holberton School`** (*providing guidance*)
-	
-![Brand](https://avatars.githubusercontent.com/u/13408012?s=50&v=4)
-www.holbertonschool.com [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crystal_Clear_app_Internet_Connection_Tools.svg/30px-Crystal_Clear_app_Internet_Connection_Tools.svg.png)](https://www.holbertonschool.com/)
-	support@holbertonschool.com [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mail_%28iOS%29.svg/25px-Mail_%28iOS%29.svg.png)](https://github.com/holbertonschool#:~:text=support%40holbertonschool.com)
+This program was written as part of the curriculum for Holberton School.
+Holberton School is a campus-based full-stack software engineering program
+that prepares students for careers in the tech industry using project-based
+peer learning. For more information, visit [this link](https://www.holbertonschool.com/).
+<p align="center">
+  <img src="https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg" alt="This is a secret;)">
+</p>
