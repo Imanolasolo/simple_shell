@@ -15,7 +15,7 @@ Thank you for visiting this repository which contain our Simple Shell project wr
 * [Depedences](#dependences)
 * [Installing, compiling and using](#Installing,compilingandusing)
 * [Builtins](#builtins)
-* [Man Page](#manpage)
+* [Man page](#manpage)
 * [Flowchart](#flowchart)
 * [Credits](#credits)
 
