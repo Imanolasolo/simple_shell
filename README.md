@@ -133,6 +133,7 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 
 
 ## Flowchart
+![simple_shell PNG](https://user-images.githubusercontent.com/86312558/145315217-4223dcec-460e-4538-9846-e704a953364c.png)
 
 
 
