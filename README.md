@@ -16,7 +16,7 @@ Thank you for visiting this repository which contain our Simple Shell project wr
 * [Requirements](#requirements)
 * [Files](#files)
 * [Credits](#credits)
-* [Flowchar](#flowchar)
+* [Flowchart](#flowchart)
 
 
 ## About
