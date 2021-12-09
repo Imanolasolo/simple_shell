@@ -127,7 +127,7 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 | [signal_handler.c](./signal_handler.c)| File to register `signal handlers` for `kernel`.|
 | [start_shell.c](./start_shell.c)| File to `start the process` of simple shell project.|
 | [std_funcs.c](./std_funcs.c)| File to `create standard functions`.|
-| [string_parcer.c](./string_parcer.c)| File used to create the functions to cut the `AST` or sequence into `pieces`.|
+| [string_parser.c](./string_parser.c)| File used to create the functions to cut the `AST` or sequence into `pieces`.|
 | [tokenize_string.c](./tokenize_string.c)| File use to read the tokens from the `AST` or sequence.|
 
 ## Credits
