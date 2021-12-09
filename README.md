@@ -109,7 +109,8 @@ $
 	
 ## Man page
 	
-![man image](https://user-images.githubusercontent.com/86312558/145327722-a1058704-be50-4fd0-b6aa-1b786c29d48f.png)
+![man image](https://user-images.githubusercontent.com/86312558/145328387-6dec8087-6b5f-4789-8d29-1435171703a9.png)
+
 
 *In progress
 
