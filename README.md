@@ -108,6 +108,8 @@ $
 - [x] history
 	
 ## Man page
+	![image](https://user-images.githubusercontent.com/86312558/145327381-bb1af5aa-c7bf-4c2f-9631-6212582811e7.png)
+
 *In progress
 
 ## Flowchart
