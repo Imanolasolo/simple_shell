@@ -87,11 +87,11 @@ To use the `.hsh` shell, *assuming the above `.c` dependencies have been install
 (your_terminal)$ cd simple_shell
 (your_terminal)$ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c -o simple_shell
 ```
-### Interactive mode
+### Non-Interactive mode
 ```
 echo "ls -l" | ./hsh
 ```
-### Non-Interactive mode
+### Interactive mode
 ```
 (your_terminal)$ ./hsh
 $
@@ -110,7 +110,6 @@ $
 ## Man page
 	
 ![image](https://user-images.githubusercontent.com/86312558/145329055-c05c5b64-b894-47b3-bdc6-98726e58d6b6.png)
-
 
 
 *In progress
