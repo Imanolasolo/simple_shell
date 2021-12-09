@@ -13,7 +13,7 @@ Thank you for visiting this repository which contain our Simple Shell project wr
 * [MIT License](#License)
 * [About](#about)
 * [Depedences](#dependences)
-* [Installing, compiling and using](#Installing,compilingandusing)
+* [Installing, compiling and using](https://github.com/Imanolasolo/simple_shell/blob/master/README.md#installing-compiling-and-using)
 * [Builtins](#builtins)
 * [Man page](https://github.com/Imanolasolo/simple_shell/blob/master/README.md#man-page)
 * [Flowchart](#flowchart)
