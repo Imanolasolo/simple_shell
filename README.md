@@ -107,15 +107,15 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 	
 ## Installation
 	
-Clone this repository: git clone "https://github.com/Imanolasolo/simple_shell.git"
+Clone this repository: git clone `"https://github.com/Imanolasolo/simple_shell.git"`
 	
-Change directories into the repository: cd simple_shell
+Change directories into the repository: cd `simple_shell`
 	
-Compile: gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+Compile: `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
 	
-Run the shell in interactive mode: ./hsh
+Run the shell in interactive mode: `./hsh`
 	
-Or run the shell in non-interactive mode: example echo "ls -lh" | ./hsh
+Or run the shell in non-interactive mode: example `echo "ls -lh" | ./hsh`
 	
 ## Files 
 
