@@ -17,7 +17,7 @@
 .SH ""
 
 .B The [\fIhsh\fR] is a Simple Shell Project to built by the Students at Holberton School. \
-The hsh NO pretends to be a functionally complete shell,
+The hsh DON´T pretends to be a functionally complete shell,
 .br
 besides the current version is in constant process of being changed to conform \
 with the specifications for Holberton School project, so
