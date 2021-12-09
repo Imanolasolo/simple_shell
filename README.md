@@ -10,7 +10,7 @@ Thank you for visiting this repository which contain our Simple Shell project wr
 <div style="text-align: justify">
 
 ## Table of Contents
-* [MIT License](#License)
+* [MIT License](./LICENSE)
 * [About](#about)
 * [Depedences](#dependences)
 * [Installing, compiling and using](https://github.com/Imanolasolo/simple_shell/blob/master/README.md#installing-compiling-and-using)
