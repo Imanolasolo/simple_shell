@@ -10,6 +10,7 @@ Thank you for visiting this repository which contain our Simple Shell project wr
 <div style="text-align: justify">
 
 ## Table of Contents
+* [AUTHORS](./AUTHORS)
 * [MIT License](./LICENSE)
 * [About](#about)
 * [Depedences](#dependences)
