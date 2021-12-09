@@ -16,6 +16,7 @@ Thank you for visiting this repository which contain our Simple Shell project wr
 * [Requirements](#requirements)
 * [Files](#files)
 * [Credits](#credits)
+* [Flowchar](#flowchar)
 
 
 ## About
@@ -129,6 +130,15 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 | [std_funcs.c](./std_funcs.c)| File to `create standard functions`.|
 | [string_parser.c](./string_parser.c)| File used to create the functions to cut the `AST` or sequence into `pieces`.|
 | [tokenize_string.c](./tokenize_string.c)| File use to read the tokens from the `AST` or sequence.|
+
+
+## Flowchart
+
+
+
+
+
+
 
 ## Credits
 
