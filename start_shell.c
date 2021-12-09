@@ -70,7 +70,7 @@ int start_shell(char **environ, char *exec_name)
  */
 void print_prompt(void)
 {
-	write(STDOUT_FILENO, "$ ", 2);
+	write(STDOUT_FILENO, "hsh$ ", 5);
 }
 /**
  * do_shell_eof_or_newline - Decides if received input is EOF or \n
