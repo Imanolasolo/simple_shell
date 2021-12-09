@@ -79,22 +79,23 @@ string_parser.c----------------------File used to create the functions to cut th
 tokenize_string.c--------------------File use to read the tokens from the AST or sequence.
 ```
 
-## Installing, compiling and using.
+## Installing, compiling and using
+	
 ### install and compile.
 To use the `.hsh` shell, *assuming the above `.c` dependencies have been installed,* compile all `.c` files in the repository and include the header `shell.h`in the entry point function.
 ```
 (your_terminal)$ git clone https://github.com/Imanolasolo/simple_shell.git
 (your_terminal)$ cd simple_shell
-(your_terminal)$ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c -o simple_shell
-```
-### Non-Interactive mode
-```
-echo "ls -l" | ./hsh
+(your_terminal)$ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c -o hsh
 ```
 ### Interactive mode
 ```
 (your_terminal)$ ./hsh
 $
+```
+### Non-Interactive mode
+```
+echo "ls -l" | ./hsh
 ```
 
 ## Builtins
