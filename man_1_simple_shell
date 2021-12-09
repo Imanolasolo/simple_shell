@@ -1,0 +1,124 @@
+.TH hsh 1 2021-12-02 "0x16. C - Simple Shell ver. 0.1" "Holberton Simple Shell Manual"
+
+
+.SH NAME
+.SH ""
+.B Simple_Shell - holberton shell project
+
+.PP
+- Command line interpreter or (hsh)
+
+.SH SYNOPSIS
+.SH ""
+.B hsh
+[No options yet]
+
+.SH DESCRIPTION
+.SH ""
+
+.B The [\fIhsh\fR] is a Simple Shell Project to built by the Students at Holberton School. \
+The hsh NO pretends to be a functionally complete shell,
+.br
+besides the current version is in constant process of being changed to conform \
+with the specifications for Holberton School project, so
+.br
+this man page is not intended to be a tutorial or a complete specification about of hsh.
+
+.B The simple_shell is a command line interpreter,  that includes the basic \
+functionality of a traditional Unix-like command line interface.
+.br
+The [\fIhsh\fR] is designed to run on the linux environment.
+.br
+
+.B \fIInvocation:\fR
+.SH ""
+.in +4n
+Compile simple_shell with the GNU Compiler Collection, preferably using gcc plus the below \
+specified flags, as per this example
+.br
+(note the use of the * wildcard which enables all related \
+.c files to be compiled concurrently):
+.P
+.RS
+.B $ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+.P
+.SH OPTIONS
+.SH ""
+Simple_shell can be run in interactive mode by entering the below command on the \
+command line followd by 'ENTER' Note that the prompt ('hsh$ ')
+.br
+will appear and you will then be in interactive mode and able to enter commands \
+followed by 'ENTER'.
+.P
+.RS
+.B hsh$ ./hsh
+.P
+.RE
+You can handle multiple commands using ';' '&&' '||' specifiers. Once you have \
+ entered the commands you execute the commands by pressing
+.br
+ 'ENTER' or 'RETURN' on your keyboard.
+.P
+Besides the [\fbhsh\fR] can be run in non-interactive mode through the use of shell scripts. This can involve the use of pipeline ('|'):
+.P
+.RS
+.B echo 'pwd' | ./hsh
+.P
+.SH ENVIRONMENT
+.SH ""
+.B \fbReserved Words:\fR
+.SH ""
+.in +4n
+.B exit:
+Quit the program, exits the hsh.
+
+.B env:
+Prints the environment variables
+
+.B history:
+Displays the history list, one command per line, preceded with line numbers, starting with 0.
+.P
+.B \fbThe commands:\fR
+.SH ""
+.in +4n
+.B exit
+,
+.B env
+and
+.B echo
+are handled automatically by
+.B hsh.
+
+.SH FILES
+.P
+.SH ""
+
+.SH BUGS
+No known bugs at this time. See status widget in the repositories 'README' for\
+updates though. If you spot a bug please feel free to create an issue
+.br
+or contact the AUTHORS via email.
+
+.SH EXAMPLE(S)
+.P
+.SH ""
+
+.SH AUTHOR(S)
+.P
+.SH ""
+
+Imanol Asolo	<3848@holbertonschool.com>
+.br
+Andrés Medina	<3371@holbertonschool.com>
+.br
+Alex Arévalo	<3915@holbertonschool.com>
+
+.SH SEE ALSO
+.P
+.SH ""
+.BR access(2),	bash(1),	chdir(2),	execve(2),	_exit(2),	exit(3),	fflush(3),	fork(2),	free(3),
+.br
+isatty(3),	malloc(3),	open(2),	read(2),	sh(1),	signal(2),	stat(2),	wait(2),	write(2)
+
+.P
+.P
