@@ -108,7 +108,8 @@ $
 - [x] history
 	
 ## Man page
-	![image](https://user-images.githubusercontent.com/86312558/145327381-bb1af5aa-c7bf-4c2f-9631-6212582811e7.png)
+	
+![man image](https://user-images.githubusercontent.com/86312558/145327722-a1058704-be50-4fd0-b6aa-1b786c29d48f.png)
 
 *In progress
 
