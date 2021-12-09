@@ -95,6 +95,17 @@ echo "ls -l" | ./hsh
 (your_terminal)$ ./hsh
 $
 ```
+
+## Builtins
+
+- [x] exit
+- [x] env
+- [ ] setenv
+- [ ] unsetenv
+- [ ] cd
+- [ ] help
+- [x] history
+	
 ## Man page
 *In progress
 
